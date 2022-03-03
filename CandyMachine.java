@@ -1,20 +1,19 @@
 public class Main {
-	public static void main(String[] args
 
 import java.util.*;
 
- public class CandyMachine{
+public class CandyMachine{
 
 static Scanner console new Scanner(System.in); 
 
-  public static void main(String1] args){
+ public static void main(String1] args){
 
 CashRegister cashRegister new CashRegister(); 
 
-Dispenser candy = new Dispenser (100, 50);
-Dispenser chips = new Dispenser (100, 65);
- Dispenser gums = new Dispenser (75, 45);
-Dispenser cookies = new Dispenser (100, 85);
+Dispenser candy = new Dispenser (70, 5);
+Dispenser chips = new Dispenser (19, 13);
+ Dispenser gums = new Dispenser (70, 7);
+Dispenser cookies = new Dispenser (106, 85);
 
 int choice;
 
@@ -22,7 +21,7 @@ showSelection();
 
 choice console.nextInt();
 
- while (choice != 9);
+ while (choice ! = 9);
  {
 
 switch (choice)
