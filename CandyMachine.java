@@ -1,6 +1,6 @@
 public class Main {
 
-import java.util.*;
+import java.util.Scanner;
 
 public class CandyMachine{
 
@@ -28,15 +28,15 @@ switch (choice)
 {
 
 case 1:
-    sellProduct(candy, cashlegister);
+    sellProduct(candy, cashRegister);
 break;
 
 case 2:
-     se11Product(chips. cashiegister);
+     sellProduct(chips. cashRegister);
 break;
 
 case 3:
-     sellProduct(gum, cashingister);
+     sellProduct(gums, cashRegister);
 break;
 
 case 4:
