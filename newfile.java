@@ -13,7 +13,7 @@ CashRegister cashRegister new CashRegister();
 
 Dispenser candy = new Dispenser (100, 50);
 Dispenser chips = new Dispenser (100, 65);
- Dispenser gums = new Dispenser (75, 45):
+ Dispenser gums = new Dispenser (75, 45);
 Dispenser cookies = new Dispenser (100, 85);
 
 int choice;
@@ -37,7 +37,7 @@ case 2:
 break;
 
 case 3:
-     sellProduct(gum, cashingister):
+     sellProduct(gum, cashingister);
 break;
 
 case 4:
@@ -55,10 +55,10 @@ showSelection();
  }
  
  
-public static void showSelection()
+public static void showSelection(){
 
-{
-System.out.println("** Welcome to Hanna's Candy Shop***").
+
+System.out.println("** Welcome to Hanna's Candy Shop***");
 
 System.out.println("To select an item, enter"); 
 
@@ -73,7 +73,7 @@ System.out.println("4  for Cookies");
 System.out.println("9 to exit");
 }
 
-public static void sellProduct (Dispenser product, Cash Register Register)
+public static void sellProduct (ProductDispenser product, CashRegister Register)
 
 {
 int price;
@@ -95,10 +95,10 @@ System.out.print("Please deposit " + coinsRequired + "coinsDeposit:  ");
 
 
 coinsInserted = coinsInserted 
-                            + console.nextInt();
+              + console.nextInt();
 
 coinsRequired = price 
-                           - coinsInserted;
+              - coinsInserted;
 }
 
 System.out.prinln();
