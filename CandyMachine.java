@@ -1,4 +1,3 @@
-public class Main {
 
 import java.util.Scanner;
 
@@ -56,7 +55,7 @@ default:
 public static void showSelection(); {
 
 
-System.out.println("** Welcome to Hanna's Candy Shop***");
+System.out.println("***Welcome to Hanna's Candy Shop***");
 
 System.out.println("To select an item, enter"); 
 
