@@ -24,7 +24,7 @@ choice console.nextInt();
  while (choice ! = 9);
  {
 
-switch (choice)
+switch (choice);
 {
 
 case 1:
@@ -44,17 +44,16 @@ case 4:
 break;
 
 default:
-
-System. out.println("Invalid Selection");
+    System.out.println("Invalid Selection");
 }
 
-showSelection();
- choice console.nextInt();
+   showSelection();
+   choice console.nextInt();
 }
  }
  
  
-public static void showSelection(){
+public static void showSelection(); {
 
 
 System.out.println("** Welcome to Hanna's Candy Shop***");
@@ -72,7 +71,7 @@ System.out.println("4  for Cookies");
 System.out.println("9 to exit");
 }
 
-public static void sellProduct (ProductDispenser product, CashRegister Register)
+public static void sellProduct (ProductDispenser product, CashRegister Register);
 
 {
 int price;
