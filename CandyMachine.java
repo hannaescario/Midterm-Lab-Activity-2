@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CandyMachine{
 
-static Scanner console new Scanner(System.in); 
+static Scanner console = new Scanner(System.in); 
 
  public static void main(String1] args){
 
