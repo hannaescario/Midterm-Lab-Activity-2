@@ -8,12 +8,12 @@ static Scanner console = new Scanner(System.in);
 
  public static void main(String1] args){
 
-CashRegister cashRegister new CashRegister(); 
+CashRegister cashRegister = new CashRegister(); 
 
-Dispenser candy = new Dispenser (70, 5);
-Dispenser chips = new Dispenser (19, 13);
- Dispenser gums = new Dispenser (70, 7);
-Dispenser cookies = new Dispenser (106, 85);
+Dispenser Candy = new Dispenser (70, 5);
+Dispenser Chips = new Dispenser (19, 13);
+Dispenser Gums = new Dispenser (70, 7);
+Dispenser Cookies = new Dispenser (106, 85);
 
 int choice;
 
@@ -28,19 +28,19 @@ switch (choice);
 {
 
 case 1:
-    sellProduct(candy, cashRegister);
+    sellProduct(Candy, cashRegister);
 break;
 
 case 2:
-     sellProduct(chips. cashRegister);
+     sellProduct(Chips, cashRegister);
 break;
 
 case 3:
-     sellProduct(gums, cashRegister);
+     sellProduct(Gums, cashRegister);
 break;
 
 case 4:
-    sellProduct (cookies, cashRegister);
+    sellProduct (Cookies, cashRegister);
 break;
 
 default:
